@@ -42,4 +42,18 @@ Alt4: The opposite is True**
 
 First of all, it is a good start to know the distribution of the numerical variables( "math score" , "reading score" , " writing score" ). As can be seen, they have a normal distribution.
 
-❮img src="images/1.png" width="100" ❯
+![](images/1.png)
+
+
+we can answer our hypothesis question using groupby function to group the students by gender, then take each exam's mean based on their gender and evaluate which group received higher marks in which exam.
+
+![](images/2.png)
+
+But it is not a reliable answer since we do not know if our dataset can represent the population well enough. Therefore, we should run a hypothesis test. Hypothesis testing is a statistical method that is used in making statistical decisions using experimental data. Hypothesis Testing is an assumption that we make about the population parameter. We use hypothesis testing to find if a finding is statistically significant or not. 
+
+By checking the notebook provided in this repository you can see that there is statistically significant relationship for the hypotheses 1, 2 and 3 but 4. In other words, students performance in the exam can be affected because of their gender, the type of lunch that they had before exam and the test preparation course that they took, but there is not a significant relationship between students' performance and thier parental level of education. 
+
+
+
+
+
