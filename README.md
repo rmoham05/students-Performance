@@ -53,7 +53,34 @@ But it is not a reliable answer since we do not know if our dataset can represen
 
 By checking the notebook provided in this repository you can see that there is statistically significant relationship for the hypotheses 1, 2 and 3 but 4. In other words, students performance in the exam can be affected because of their gender, the type of lunch that they had before exam and the test preparation course that they took, but there is not a significant relationship between students' performance and thier parental level of education. 
 
+By checking the following boxplots and considering the statistical relationship that we are already aware of, It is clear that 
+
+1) female students performed better than male students in reading and writing courses
+
+![](images/3.png)
+
+2) those students who had an standard lunch performed better in their exams
+
+![](images/4.png)
+
+3) those students who completed a test preparation course performed better in their exams 
+
+![](images/5.png)
 
 
 
+## Now that we understood the significance of the relationships between the dataset's variables. It is time to do some further analysis.
+
+1) By checking cross-relation of lunch and test preparation on students' exams' scores we can see the effect of two variables on the mean of students' scores using pivot table and heatmap
+
+![](images/6.png)
+
+By checking the above table, it can be seen that the students who had a standard lunch and took a test preparation course received better marks comparing to other students. 
+
+
+2) By checking cross-relation of gender and test preparation on students' exams' scores we can see the effect of two variables on the mean of students' scores using pivot table and heatmap
+
+![](images/7.png)
+
+By checking the above table, it can be seen that the female students who took a test preparation course received better marks in reading and writing comparing to other students.
 
